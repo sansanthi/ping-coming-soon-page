@@ -42,10 +42,11 @@ ul {
 .header {
     text-align: center; 
     margin-bottom: 6.4rem;  
-    p {
+    h1 {
         color: var(--color-gray);
         font-size: 2.4rem;
         margin-bottom: 0.65rem;
+        font-weight: 300;
     } 
     small {
         display: block;
@@ -55,7 +56,7 @@ ul {
     }
     @media screen and (min-width: 54rem) {
         margin-bottom: 7rem;
-        p {
+        h1 {
             font-size: 4.4rem;
         }
         small {
